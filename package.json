@@ -12,6 +12,7 @@
     "core-js": "^3.8.3",
     "feather-icons": "^4.29.2",
     "lodash": "^4.17.21",
+    "mvn": "^3.5.0",
     "sass": "^1.90.0",
     "sass-loader": "^16.0.5",
     "vue": "^2.6.14",
@@ -28,10 +29,10 @@
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^8.10.2",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
-    "prettier": "^2.4.1",
+    "prettier": "^2.8.8",
     "vue-cli-plugin-vuetify": "^2.5.8",
     "vue-template-compiler": "^2.6.14"
   }
