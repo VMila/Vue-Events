@@ -1,8 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import router from './router/router.js'
 import store from './store/store.js'
 import BaseIcon from '@/components/BaseIcon.vue'
+import 'nprogress/nprogress.css'
+import Vuelidate from 'vuelidate'
+import DateFilter from '@/filters/date.js'
+
+Vue.filter('date', DateFilter)
+
+Vue.use(Vuelidate)
 
 Vue.component('BaseIcon', BaseIcon)
 
